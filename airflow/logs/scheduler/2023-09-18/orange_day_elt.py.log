@@ -1,0 +1,352 @@
+[2023-09-18T14:50:43.094+0000] {processor.py:157} INFO - Started process (PID=174) to work on /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T14:50:43.094+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/orange_day_elt.py for tasks to queue
+[2023-09-18T14:50:43.095+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:50:43.095+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T14:50:43.441+0000] {processor.py:839} INFO - DAG(s) dict_keys(['orange_day_elt']) retrieved from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T14:50:43.568+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:50:43.568+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:orange_day_elt' as access control is unset.
+[2023-09-18T14:50:43.569+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:50:43.568+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-18T14:50:43.583+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:50:43.583+0000] {dag.py:3696} INFO - Setting next_dagrun for orange_day_elt to 2023-09-19T00:00:00+00:00, run_after=2023-09-20T00:00:00+00:00
+[2023-09-18T14:50:43.613+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/orange_day_elt.py took 0.523 seconds
+[2023-09-18T14:51:13.768+0000] {processor.py:157} INFO - Started process (PID=191) to work on /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T14:51:13.770+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/orange_day_elt.py for tasks to queue
+[2023-09-18T14:51:13.771+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:51:13.771+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T14:51:13.992+0000] {processor.py:839} INFO - DAG(s) dict_keys(['orange_day_elt']) retrieved from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T14:51:14.059+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:51:14.059+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:orange_day_elt' as access control is unset.
+[2023-09-18T14:51:14.059+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:51:14.059+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-18T14:51:14.076+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:51:14.076+0000] {dag.py:3696} INFO - Setting next_dagrun for orange_day_elt to 2023-09-19T00:00:00+00:00, run_after=2023-09-20T00:00:00+00:00
+[2023-09-18T14:51:14.090+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/orange_day_elt.py took 0.331 seconds
+[2023-09-18T14:51:44.228+0000] {processor.py:157} INFO - Started process (PID=208) to work on /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T14:51:44.229+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/orange_day_elt.py for tasks to queue
+[2023-09-18T14:51:44.230+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:51:44.229+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T14:51:44.388+0000] {processor.py:839} INFO - DAG(s) dict_keys(['orange_day_elt']) retrieved from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T14:51:44.453+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:51:44.452+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:orange_day_elt' as access control is unset.
+[2023-09-18T14:51:44.453+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:51:44.453+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-18T14:51:44.469+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:51:44.469+0000] {dag.py:3696} INFO - Setting next_dagrun for orange_day_elt to 2023-09-19T00:00:00+00:00, run_after=2023-09-20T00:00:00+00:00
+[2023-09-18T14:51:44.486+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/orange_day_elt.py took 0.262 seconds
+[2023-09-18T14:52:14.635+0000] {processor.py:157} INFO - Started process (PID=225) to work on /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T14:52:14.636+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/orange_day_elt.py for tasks to queue
+[2023-09-18T14:52:14.637+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:52:14.637+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T14:52:14.814+0000] {processor.py:839} INFO - DAG(s) dict_keys(['orange_day_elt']) retrieved from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T14:52:14.880+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:52:14.880+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:orange_day_elt' as access control is unset.
+[2023-09-18T14:52:14.880+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:52:14.880+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-18T14:52:14.895+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:52:14.895+0000] {dag.py:3696} INFO - Setting next_dagrun for orange_day_elt to 2023-09-19T00:00:00+00:00, run_after=2023-09-20T00:00:00+00:00
+[2023-09-18T14:52:14.907+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/orange_day_elt.py took 0.275 seconds
+[2023-09-18T14:52:45.050+0000] {processor.py:157} INFO - Started process (PID=242) to work on /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T14:52:45.050+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/orange_day_elt.py for tasks to queue
+[2023-09-18T14:52:45.051+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:52:45.051+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T14:52:45.194+0000] {processor.py:839} INFO - DAG(s) dict_keys(['orange_day_elt']) retrieved from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T14:52:45.259+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:52:45.258+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:orange_day_elt' as access control is unset.
+[2023-09-18T14:52:45.259+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:52:45.259+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-18T14:52:45.274+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:52:45.274+0000] {dag.py:3696} INFO - Setting next_dagrun for orange_day_elt to 2023-09-19T00:00:00+00:00, run_after=2023-09-20T00:00:00+00:00
+[2023-09-18T14:52:45.285+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/orange_day_elt.py took 0.238 seconds
+[2023-09-18T14:53:15.435+0000] {processor.py:157} INFO - Started process (PID=259) to work on /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T14:53:15.436+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/orange_day_elt.py for tasks to queue
+[2023-09-18T14:53:15.437+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:53:15.437+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T14:53:15.604+0000] {processor.py:839} INFO - DAG(s) dict_keys(['orange_day_elt']) retrieved from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T14:53:15.668+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:53:15.668+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:orange_day_elt' as access control is unset.
+[2023-09-18T14:53:15.668+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:53:15.668+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-18T14:53:15.680+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:53:15.680+0000] {dag.py:3696} INFO - Setting next_dagrun for orange_day_elt to 2023-09-19T00:00:00+00:00, run_after=2023-09-20T00:00:00+00:00
+[2023-09-18T14:53:15.689+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/orange_day_elt.py took 0.259 seconds
+[2023-09-18T14:53:45.859+0000] {processor.py:157} INFO - Started process (PID=276) to work on /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T14:53:45.859+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/orange_day_elt.py for tasks to queue
+[2023-09-18T14:53:45.860+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:53:45.860+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T14:53:46.019+0000] {processor.py:839} INFO - DAG(s) dict_keys(['orange_day_elt']) retrieved from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T14:53:46.078+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:53:46.077+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:orange_day_elt' as access control is unset.
+[2023-09-18T14:53:46.078+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:53:46.078+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-18T14:53:46.090+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:53:46.089+0000] {dag.py:3696} INFO - Setting next_dagrun for orange_day_elt to 2023-09-19T00:00:00+00:00, run_after=2023-09-20T00:00:00+00:00
+[2023-09-18T14:53:46.100+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/orange_day_elt.py took 0.244 seconds
+[2023-09-18T14:54:16.268+0000] {processor.py:157} INFO - Started process (PID=293) to work on /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T14:54:16.269+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/orange_day_elt.py for tasks to queue
+[2023-09-18T14:54:16.270+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:54:16.269+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T14:54:16.428+0000] {processor.py:839} INFO - DAG(s) dict_keys(['orange_day_elt']) retrieved from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T14:54:16.485+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:54:16.485+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:orange_day_elt' as access control is unset.
+[2023-09-18T14:54:16.485+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:54:16.485+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-18T14:54:16.499+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:54:16.499+0000] {dag.py:3696} INFO - Setting next_dagrun for orange_day_elt to 2023-09-19T00:00:00+00:00, run_after=2023-09-20T00:00:00+00:00
+[2023-09-18T14:54:16.512+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/orange_day_elt.py took 0.246 seconds
+[2023-09-18T14:54:46.657+0000] {processor.py:157} INFO - Started process (PID=310) to work on /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T14:54:46.658+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/orange_day_elt.py for tasks to queue
+[2023-09-18T14:54:46.659+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:54:46.658+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T14:54:46.807+0000] {processor.py:839} INFO - DAG(s) dict_keys(['orange_day_elt']) retrieved from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T14:54:46.880+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:54:46.879+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:orange_day_elt' as access control is unset.
+[2023-09-18T14:54:46.880+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:54:46.880+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-18T14:54:46.893+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:54:46.892+0000] {dag.py:3696} INFO - Setting next_dagrun for orange_day_elt to 2023-09-19T00:00:00+00:00, run_after=2023-09-20T00:00:00+00:00
+[2023-09-18T14:54:46.903+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/orange_day_elt.py took 0.248 seconds
+[2023-09-18T14:55:17.017+0000] {processor.py:157} INFO - Started process (PID=327) to work on /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T14:55:17.018+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/orange_day_elt.py for tasks to queue
+[2023-09-18T14:55:17.018+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:55:17.018+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T14:55:17.217+0000] {processor.py:839} INFO - DAG(s) dict_keys(['orange_day_elt']) retrieved from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T14:55:17.283+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:55:17.283+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:orange_day_elt' as access control is unset.
+[2023-09-18T14:55:17.284+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:55:17.283+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-18T14:55:17.298+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:55:17.297+0000] {dag.py:3696} INFO - Setting next_dagrun for orange_day_elt to 2023-09-19T00:00:00+00:00, run_after=2023-09-20T00:00:00+00:00
+[2023-09-18T14:55:17.321+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/orange_day_elt.py took 0.308 seconds
+[2023-09-18T14:55:47.435+0000] {processor.py:157} INFO - Started process (PID=344) to work on /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T14:55:47.436+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/orange_day_elt.py for tasks to queue
+[2023-09-18T14:55:47.437+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:55:47.437+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T14:55:47.606+0000] {processor.py:839} INFO - DAG(s) dict_keys(['orange_day_elt']) retrieved from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T14:55:47.668+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:55:47.668+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:orange_day_elt' as access control is unset.
+[2023-09-18T14:55:47.669+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:55:47.669+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-18T14:55:47.686+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:55:47.686+0000] {dag.py:3696} INFO - Setting next_dagrun for orange_day_elt to 2023-09-19T00:00:00+00:00, run_after=2023-09-20T00:00:00+00:00
+[2023-09-18T14:55:47.700+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/orange_day_elt.py took 0.268 seconds
+[2023-09-18T14:56:17.799+0000] {processor.py:157} INFO - Started process (PID=361) to work on /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T14:56:17.800+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/orange_day_elt.py for tasks to queue
+[2023-09-18T14:56:17.800+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:56:17.800+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T14:56:17.963+0000] {processor.py:839} INFO - DAG(s) dict_keys(['orange_day_elt']) retrieved from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T14:56:18.029+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:56:18.029+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:orange_day_elt' as access control is unset.
+[2023-09-18T14:56:18.030+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:56:18.029+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-18T14:56:18.043+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:56:18.043+0000] {dag.py:3696} INFO - Setting next_dagrun for orange_day_elt to 2023-09-19T00:00:00+00:00, run_after=2023-09-20T00:00:00+00:00
+[2023-09-18T14:56:18.111+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/orange_day_elt.py took 0.315 seconds
+[2023-09-18T14:56:48.216+0000] {processor.py:157} INFO - Started process (PID=378) to work on /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T14:56:48.216+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/orange_day_elt.py for tasks to queue
+[2023-09-18T14:56:48.217+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:56:48.217+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T14:56:48.378+0000] {processor.py:839} INFO - DAG(s) dict_keys(['orange_day_elt']) retrieved from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T14:56:48.449+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:56:48.449+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:orange_day_elt' as access control is unset.
+[2023-09-18T14:56:48.449+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:56:48.449+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-18T14:56:48.461+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:56:48.461+0000] {dag.py:3696} INFO - Setting next_dagrun for orange_day_elt to 2023-09-19T00:00:00+00:00, run_after=2023-09-20T00:00:00+00:00
+[2023-09-18T14:56:48.472+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/orange_day_elt.py took 0.260 seconds
+[2023-09-18T14:57:18.563+0000] {processor.py:157} INFO - Started process (PID=395) to work on /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T14:57:18.563+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/orange_day_elt.py for tasks to queue
+[2023-09-18T14:57:18.564+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:57:18.564+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T14:57:18.708+0000] {processor.py:839} INFO - DAG(s) dict_keys(['orange_day_elt']) retrieved from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T14:57:18.773+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:57:18.772+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:orange_day_elt' as access control is unset.
+[2023-09-18T14:57:18.773+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:57:18.773+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-18T14:57:18.787+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:57:18.787+0000] {dag.py:3696} INFO - Setting next_dagrun for orange_day_elt to 2023-09-19T00:00:00+00:00, run_after=2023-09-20T00:00:00+00:00
+[2023-09-18T14:57:18.825+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/orange_day_elt.py took 0.265 seconds
+[2023-09-18T14:57:48.926+0000] {processor.py:157} INFO - Started process (PID=412) to work on /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T14:57:48.927+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/orange_day_elt.py for tasks to queue
+[2023-09-18T14:57:48.928+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:57:48.927+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T14:57:49.083+0000] {processor.py:839} INFO - DAG(s) dict_keys(['orange_day_elt']) retrieved from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T14:57:49.139+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:57:49.138+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:orange_day_elt' as access control is unset.
+[2023-09-18T14:57:49.139+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:57:49.139+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-18T14:57:49.151+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:57:49.151+0000] {dag.py:3696} INFO - Setting next_dagrun for orange_day_elt to 2023-09-19T00:00:00+00:00, run_after=2023-09-20T00:00:00+00:00
+[2023-09-18T14:57:49.163+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/orange_day_elt.py took 0.239 seconds
+[2023-09-18T14:58:19.269+0000] {processor.py:157} INFO - Started process (PID=429) to work on /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T14:58:19.270+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/orange_day_elt.py for tasks to queue
+[2023-09-18T14:58:19.271+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:58:19.271+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T14:58:19.428+0000] {processor.py:839} INFO - DAG(s) dict_keys(['orange_day_elt']) retrieved from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T14:58:19.484+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:58:19.483+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:orange_day_elt' as access control is unset.
+[2023-09-18T14:58:19.484+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:58:19.484+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-18T14:58:19.496+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:58:19.496+0000] {dag.py:3696} INFO - Setting next_dagrun for orange_day_elt to 2023-09-19T00:00:00+00:00, run_after=2023-09-20T00:00:00+00:00
+[2023-09-18T14:58:19.508+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/orange_day_elt.py took 0.242 seconds
+[2023-09-18T14:58:49.604+0000] {processor.py:157} INFO - Started process (PID=446) to work on /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T14:58:49.605+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/orange_day_elt.py for tasks to queue
+[2023-09-18T14:58:49.606+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:58:49.606+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T14:58:49.759+0000] {processor.py:839} INFO - DAG(s) dict_keys(['orange_day_elt']) retrieved from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T14:58:49.814+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:58:49.814+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:orange_day_elt' as access control is unset.
+[2023-09-18T14:58:49.815+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:58:49.814+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-18T14:58:49.827+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:58:49.827+0000] {dag.py:3696} INFO - Setting next_dagrun for orange_day_elt to 2023-09-19T00:00:00+00:00, run_after=2023-09-20T00:00:00+00:00
+[2023-09-18T14:58:49.838+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/orange_day_elt.py took 0.238 seconds
+[2023-09-18T14:59:19.972+0000] {processor.py:157} INFO - Started process (PID=463) to work on /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T14:59:19.973+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/orange_day_elt.py for tasks to queue
+[2023-09-18T14:59:19.973+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:59:19.973+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T14:59:20.118+0000] {processor.py:839} INFO - DAG(s) dict_keys(['orange_day_elt']) retrieved from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T14:59:20.182+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:59:20.182+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:orange_day_elt' as access control is unset.
+[2023-09-18T14:59:20.183+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:59:20.183+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-18T14:59:20.195+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:59:20.195+0000] {dag.py:3696} INFO - Setting next_dagrun for orange_day_elt to 2023-09-19T00:00:00+00:00, run_after=2023-09-20T00:00:00+00:00
+[2023-09-18T14:59:20.207+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/orange_day_elt.py took 0.237 seconds
+[2023-09-18T14:59:50.309+0000] {processor.py:157} INFO - Started process (PID=480) to work on /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T14:59:50.309+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/orange_day_elt.py for tasks to queue
+[2023-09-18T14:59:50.310+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:59:50.310+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T14:59:50.459+0000] {processor.py:839} INFO - DAG(s) dict_keys(['orange_day_elt']) retrieved from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T14:59:50.529+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:59:50.529+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:orange_day_elt' as access control is unset.
+[2023-09-18T14:59:50.529+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:59:50.529+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-18T14:59:50.542+0000] {logging_mixin.py:151} INFO - [2023-09-18T14:59:50.542+0000] {dag.py:3696} INFO - Setting next_dagrun for orange_day_elt to 2023-09-19T00:00:00+00:00, run_after=2023-09-20T00:00:00+00:00
+[2023-09-18T14:59:50.554+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/orange_day_elt.py took 0.248 seconds
+[2023-09-18T15:00:20.655+0000] {processor.py:157} INFO - Started process (PID=497) to work on /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:00:20.656+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/orange_day_elt.py for tasks to queue
+[2023-09-18T15:00:20.657+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:00:20.657+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:00:20.816+0000] {processor.py:839} INFO - DAG(s) dict_keys(['orange_day_elt']) retrieved from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:00:20.885+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:00:20.884+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:orange_day_elt' as access control is unset.
+[2023-09-18T15:00:20.885+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:00:20.885+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-18T15:00:20.898+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:00:20.898+0000] {dag.py:3696} INFO - Setting next_dagrun for orange_day_elt to 2023-09-19T00:00:00+00:00, run_after=2023-09-20T00:00:00+00:00
+[2023-09-18T15:00:20.908+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/orange_day_elt.py took 0.256 seconds
+[2023-09-18T15:00:51.050+0000] {processor.py:157} INFO - Started process (PID=514) to work on /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:00:51.050+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/orange_day_elt.py for tasks to queue
+[2023-09-18T15:00:51.051+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:00:51.051+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:00:51.208+0000] {processor.py:839} INFO - DAG(s) dict_keys(['orange_day_elt']) retrieved from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:00:51.267+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:00:51.267+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:orange_day_elt' as access control is unset.
+[2023-09-18T15:00:51.267+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:00:51.267+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-18T15:00:51.282+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:00:51.281+0000] {dag.py:3696} INFO - Setting next_dagrun for orange_day_elt to 2023-09-19T00:00:00+00:00, run_after=2023-09-20T00:00:00+00:00
+[2023-09-18T15:00:51.295+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/orange_day_elt.py took 0.247 seconds
+[2023-09-18T15:01:21.434+0000] {processor.py:157} INFO - Started process (PID=531) to work on /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:01:21.435+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/orange_day_elt.py for tasks to queue
+[2023-09-18T15:01:21.436+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:01:21.435+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:01:21.599+0000] {processor.py:839} INFO - DAG(s) dict_keys(['orange_day_elt']) retrieved from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:01:21.654+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:01:21.654+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:orange_day_elt' as access control is unset.
+[2023-09-18T15:01:21.654+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:01:21.654+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-18T15:01:21.666+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:01:21.666+0000] {dag.py:3696} INFO - Setting next_dagrun for orange_day_elt to 2023-09-19T00:00:00+00:00, run_after=2023-09-20T00:00:00+00:00
+[2023-09-18T15:01:21.677+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/orange_day_elt.py took 0.245 seconds
+[2023-09-18T15:03:00.605+0000] {processor.py:157} INFO - Started process (PID=175) to work on /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:03:00.605+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/orange_day_elt.py for tasks to queue
+[2023-09-18T15:03:00.606+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:03:00.605+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:03:00.822+0000] {processor.py:839} INFO - DAG(s) dict_keys(['orange_day_elt']) retrieved from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:03:00.938+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:03:00.937+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:orange_day_elt' as access control is unset.
+[2023-09-18T15:03:00.938+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:03:00.938+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-18T15:03:00.953+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:03:00.953+0000] {dag.py:3696} INFO - Setting next_dagrun for orange_day_elt to 2023-09-19T00:00:00+00:00, run_after=2023-09-20T00:00:00+00:00
+[2023-09-18T15:03:00.973+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/orange_day_elt.py took 0.370 seconds
+[2023-09-18T15:03:31.077+0000] {processor.py:157} INFO - Started process (PID=192) to work on /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:03:31.077+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/orange_day_elt.py for tasks to queue
+[2023-09-18T15:03:31.078+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:03:31.078+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:03:31.228+0000] {processor.py:839} INFO - DAG(s) dict_keys(['orange_day_elt']) retrieved from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:03:31.287+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:03:31.286+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:orange_day_elt' as access control is unset.
+[2023-09-18T15:03:31.287+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:03:31.287+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-18T15:03:31.299+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:03:31.299+0000] {dag.py:3696} INFO - Setting next_dagrun for orange_day_elt to 2023-09-19T00:00:00+00:00, run_after=2023-09-20T00:00:00+00:00
+[2023-09-18T15:03:31.311+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/orange_day_elt.py took 0.238 seconds
+[2023-09-18T15:04:01.431+0000] {processor.py:157} INFO - Started process (PID=209) to work on /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:04:01.431+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/orange_day_elt.py for tasks to queue
+[2023-09-18T15:04:01.432+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:04:01.431+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:04:01.583+0000] {processor.py:839} INFO - DAG(s) dict_keys(['orange_day_elt']) retrieved from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:04:01.640+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:04:01.640+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:orange_day_elt' as access control is unset.
+[2023-09-18T15:04:01.641+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:04:01.640+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-18T15:04:01.653+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:04:01.653+0000] {dag.py:3696} INFO - Setting next_dagrun for orange_day_elt to 2023-09-19T00:00:00+00:00, run_after=2023-09-20T00:00:00+00:00
+[2023-09-18T15:04:01.664+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/orange_day_elt.py took 0.236 seconds
+[2023-09-18T15:04:31.787+0000] {processor.py:157} INFO - Started process (PID=226) to work on /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:04:31.788+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/orange_day_elt.py for tasks to queue
+[2023-09-18T15:04:31.789+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:04:31.788+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:04:31.939+0000] {processor.py:839} INFO - DAG(s) dict_keys(['orange_day_elt']) retrieved from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:04:31.996+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:04:31.995+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:orange_day_elt' as access control is unset.
+[2023-09-18T15:04:31.996+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:04:31.996+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-18T15:04:32.008+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:04:32.008+0000] {dag.py:3696} INFO - Setting next_dagrun for orange_day_elt to 2023-09-19T00:00:00+00:00, run_after=2023-09-20T00:00:00+00:00
+[2023-09-18T15:04:32.036+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/orange_day_elt.py took 0.252 seconds
+[2023-09-18T15:05:02.158+0000] {processor.py:157} INFO - Started process (PID=243) to work on /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:05:02.159+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/orange_day_elt.py for tasks to queue
+[2023-09-18T15:05:02.159+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:05:02.159+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:05:02.306+0000] {processor.py:839} INFO - DAG(s) dict_keys(['orange_day_elt']) retrieved from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:05:02.369+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:05:02.369+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:orange_day_elt' as access control is unset.
+[2023-09-18T15:05:02.370+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:05:02.369+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-18T15:05:02.382+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:05:02.382+0000] {dag.py:3696} INFO - Setting next_dagrun for orange_day_elt to 2023-09-19T00:00:00+00:00, run_after=2023-09-20T00:00:00+00:00
+[2023-09-18T15:05:02.392+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/orange_day_elt.py took 0.237 seconds
+[2023-09-18T15:05:32.513+0000] {processor.py:157} INFO - Started process (PID=260) to work on /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:05:32.514+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/orange_day_elt.py for tasks to queue
+[2023-09-18T15:05:32.514+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:05:32.514+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:05:32.659+0000] {processor.py:839} INFO - DAG(s) dict_keys(['orange_day_elt']) retrieved from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:05:32.722+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:05:32.722+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:orange_day_elt' as access control is unset.
+[2023-09-18T15:05:32.722+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:05:32.722+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-18T15:05:32.736+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:05:32.736+0000] {dag.py:3696} INFO - Setting next_dagrun for orange_day_elt to 2023-09-19T00:00:00+00:00, run_after=2023-09-20T00:00:00+00:00
+[2023-09-18T15:05:32.785+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/orange_day_elt.py took 0.274 seconds
+[2023-09-18T15:06:02.914+0000] {processor.py:157} INFO - Started process (PID=277) to work on /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:06:02.914+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/orange_day_elt.py for tasks to queue
+[2023-09-18T15:06:02.915+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:06:02.915+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:06:03.067+0000] {processor.py:839} INFO - DAG(s) dict_keys(['orange_day_elt']) retrieved from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:06:03.124+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:06:03.124+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:orange_day_elt' as access control is unset.
+[2023-09-18T15:06:03.125+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:06:03.124+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-18T15:06:03.141+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:06:03.141+0000] {dag.py:3696} INFO - Setting next_dagrun for orange_day_elt to 2023-09-19T00:00:00+00:00, run_after=2023-09-20T00:00:00+00:00
+[2023-09-18T15:06:03.155+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/orange_day_elt.py took 0.244 seconds
+[2023-09-18T15:06:33.303+0000] {processor.py:157} INFO - Started process (PID=294) to work on /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:06:33.304+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/orange_day_elt.py for tasks to queue
+[2023-09-18T15:06:33.304+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:06:33.304+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:06:33.460+0000] {processor.py:839} INFO - DAG(s) dict_keys(['orange_day_elt']) retrieved from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:06:33.523+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:06:33.523+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:orange_day_elt' as access control is unset.
+[2023-09-18T15:06:33.523+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:06:33.523+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-18T15:06:33.535+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:06:33.535+0000] {dag.py:3696} INFO - Setting next_dagrun for orange_day_elt to 2023-09-19T00:00:00+00:00, run_after=2023-09-20T00:00:00+00:00
+[2023-09-18T15:06:33.555+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/orange_day_elt.py took 0.253 seconds
+[2023-09-18T15:07:03.668+0000] {processor.py:157} INFO - Started process (PID=311) to work on /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:07:03.669+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/orange_day_elt.py for tasks to queue
+[2023-09-18T15:07:03.669+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:07:03.669+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:07:03.824+0000] {processor.py:839} INFO - DAG(s) dict_keys(['orange_day_elt']) retrieved from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:07:03.901+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:07:03.900+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:orange_day_elt' as access control is unset.
+[2023-09-18T15:07:03.901+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:07:03.901+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-18T15:07:03.913+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:07:03.913+0000] {dag.py:3696} INFO - Setting next_dagrun for orange_day_elt to 2023-09-19T00:00:00+00:00, run_after=2023-09-20T00:00:00+00:00
+[2023-09-18T15:07:03.924+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/orange_day_elt.py took 0.259 seconds
+[2023-09-18T15:07:34.037+0000] {processor.py:157} INFO - Started process (PID=328) to work on /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:07:34.037+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/orange_day_elt.py for tasks to queue
+[2023-09-18T15:07:34.038+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:07:34.037+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:07:34.184+0000] {processor.py:839} INFO - DAG(s) dict_keys(['orange_day_elt']) retrieved from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:07:34.249+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:07:34.248+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:orange_day_elt' as access control is unset.
+[2023-09-18T15:07:34.249+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:07:34.249+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-18T15:07:34.262+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:07:34.262+0000] {dag.py:3696} INFO - Setting next_dagrun for orange_day_elt to 2023-09-19T00:00:00+00:00, run_after=2023-09-20T00:00:00+00:00
+[2023-09-18T15:07:34.272+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/orange_day_elt.py took 0.238 seconds
+[2023-09-18T15:08:04.421+0000] {processor.py:157} INFO - Started process (PID=345) to work on /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:08:04.421+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/orange_day_elt.py for tasks to queue
+[2023-09-18T15:08:04.422+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:08:04.422+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:08:04.571+0000] {processor.py:839} INFO - DAG(s) dict_keys(['orange_day_elt']) retrieved from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:08:04.628+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:08:04.628+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:orange_day_elt' as access control is unset.
+[2023-09-18T15:08:04.629+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:08:04.629+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-18T15:08:04.641+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:08:04.641+0000] {dag.py:3696} INFO - Setting next_dagrun for orange_day_elt to 2023-09-19T00:00:00+00:00, run_after=2023-09-20T00:00:00+00:00
+[2023-09-18T15:08:04.652+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/orange_day_elt.py took 0.233 seconds
+[2023-09-18T15:08:34.783+0000] {processor.py:157} INFO - Started process (PID=362) to work on /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:08:34.784+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/orange_day_elt.py for tasks to queue
+[2023-09-18T15:08:34.785+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:08:34.785+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:08:34.941+0000] {processor.py:839} INFO - DAG(s) dict_keys(['orange_day_elt']) retrieved from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:08:35.006+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:08:35.006+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:orange_day_elt' as access control is unset.
+[2023-09-18T15:08:35.006+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:08:35.006+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-18T15:08:35.018+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:08:35.018+0000] {dag.py:3696} INFO - Setting next_dagrun for orange_day_elt to 2023-09-19T00:00:00+00:00, run_after=2023-09-20T00:00:00+00:00
+[2023-09-18T15:08:35.029+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/orange_day_elt.py took 0.251 seconds
+[2023-09-18T15:09:05.150+0000] {processor.py:157} INFO - Started process (PID=379) to work on /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:09:05.150+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/orange_day_elt.py for tasks to queue
+[2023-09-18T15:09:05.151+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:09:05.151+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:09:05.306+0000] {processor.py:839} INFO - DAG(s) dict_keys(['orange_day_elt']) retrieved from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:09:05.369+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:09:05.369+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:orange_day_elt' as access control is unset.
+[2023-09-18T15:09:05.369+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:09:05.369+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-18T15:09:05.382+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:09:05.382+0000] {dag.py:3696} INFO - Setting next_dagrun for orange_day_elt to 2023-09-19T00:00:00+00:00, run_after=2023-09-20T00:00:00+00:00
+[2023-09-18T15:09:05.395+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/orange_day_elt.py took 0.249 seconds
+[2023-09-18T15:09:35.524+0000] {processor.py:157} INFO - Started process (PID=396) to work on /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:09:35.524+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/orange_day_elt.py for tasks to queue
+[2023-09-18T15:09:35.525+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:09:35.525+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:09:35.676+0000] {processor.py:839} INFO - DAG(s) dict_keys(['orange_day_elt']) retrieved from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:09:35.732+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:09:35.732+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:orange_day_elt' as access control is unset.
+[2023-09-18T15:09:35.732+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:09:35.732+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-18T15:09:35.744+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:09:35.744+0000] {dag.py:3696} INFO - Setting next_dagrun for orange_day_elt to 2023-09-19T00:00:00+00:00, run_after=2023-09-20T00:00:00+00:00
+[2023-09-18T15:09:35.756+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/orange_day_elt.py took 0.236 seconds
+[2023-09-18T15:10:05.910+0000] {processor.py:157} INFO - Started process (PID=413) to work on /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:10:05.910+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/orange_day_elt.py for tasks to queue
+[2023-09-18T15:10:05.911+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:10:05.911+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:10:06.065+0000] {processor.py:839} INFO - DAG(s) dict_keys(['orange_day_elt']) retrieved from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:10:06.129+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:10:06.129+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:orange_day_elt' as access control is unset.
+[2023-09-18T15:10:06.129+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:10:06.129+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-18T15:10:06.143+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:10:06.143+0000] {dag.py:3696} INFO - Setting next_dagrun for orange_day_elt to 2023-09-19T00:00:00+00:00, run_after=2023-09-20T00:00:00+00:00
+[2023-09-18T15:10:06.155+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/orange_day_elt.py took 0.247 seconds
+[2023-09-18T15:10:36.297+0000] {processor.py:157} INFO - Started process (PID=430) to work on /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:10:36.298+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/orange_day_elt.py for tasks to queue
+[2023-09-18T15:10:36.299+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:10:36.299+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:10:36.453+0000] {processor.py:839} INFO - DAG(s) dict_keys(['orange_day_elt']) retrieved from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:10:36.510+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:10:36.510+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:orange_day_elt' as access control is unset.
+[2023-09-18T15:10:36.510+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:10:36.510+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-18T15:10:36.523+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:10:36.522+0000] {dag.py:3696} INFO - Setting next_dagrun for orange_day_elt to 2023-09-19T00:00:00+00:00, run_after=2023-09-20T00:00:00+00:00
+[2023-09-18T15:10:36.553+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/orange_day_elt.py took 0.259 seconds
+[2023-09-18T15:11:06.673+0000] {processor.py:157} INFO - Started process (PID=447) to work on /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:11:06.673+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/orange_day_elt.py for tasks to queue
+[2023-09-18T15:11:06.674+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:11:06.674+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:11:06.830+0000] {processor.py:839} INFO - DAG(s) dict_keys(['orange_day_elt']) retrieved from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:11:06.888+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:11:06.887+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:orange_day_elt' as access control is unset.
+[2023-09-18T15:11:06.888+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:11:06.888+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-18T15:11:06.900+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:11:06.900+0000] {dag.py:3696} INFO - Setting next_dagrun for orange_day_elt to 2023-09-19T00:00:00+00:00, run_after=2023-09-20T00:00:00+00:00
+[2023-09-18T15:11:06.911+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/orange_day_elt.py took 0.242 seconds
+[2023-09-18T15:11:37.040+0000] {processor.py:157} INFO - Started process (PID=464) to work on /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:11:37.040+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/orange_day_elt.py for tasks to queue
+[2023-09-18T15:11:37.041+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:11:37.041+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:11:37.189+0000] {processor.py:839} INFO - DAG(s) dict_keys(['orange_day_elt']) retrieved from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:11:37.253+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:11:37.253+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:orange_day_elt' as access control is unset.
+[2023-09-18T15:11:37.253+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:11:37.253+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-18T15:11:37.266+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:11:37.266+0000] {dag.py:3696} INFO - Setting next_dagrun for orange_day_elt to 2023-09-19T00:00:00+00:00, run_after=2023-09-20T00:00:00+00:00
+[2023-09-18T15:11:37.278+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/orange_day_elt.py took 0.241 seconds
+[2023-09-18T15:12:07.430+0000] {processor.py:157} INFO - Started process (PID=481) to work on /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:12:07.430+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/orange_day_elt.py for tasks to queue
+[2023-09-18T15:12:07.431+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:12:07.431+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:12:07.579+0000] {processor.py:839} INFO - DAG(s) dict_keys(['orange_day_elt']) retrieved from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:12:07.644+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:12:07.644+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:orange_day_elt' as access control is unset.
+[2023-09-18T15:12:07.645+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:12:07.644+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-18T15:12:07.659+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:12:07.659+0000] {dag.py:3696} INFO - Setting next_dagrun for orange_day_elt to 2023-09-19T00:00:00+00:00, run_after=2023-09-20T00:00:00+00:00
+[2023-09-18T15:12:07.671+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/orange_day_elt.py took 0.245 seconds
+[2023-09-18T15:12:37.824+0000] {processor.py:157} INFO - Started process (PID=498) to work on /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:12:37.824+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/orange_day_elt.py for tasks to queue
+[2023-09-18T15:12:37.825+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:12:37.825+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:12:37.980+0000] {processor.py:839} INFO - DAG(s) dict_keys(['orange_day_elt']) retrieved from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:12:38.040+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:12:38.040+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:orange_day_elt' as access control is unset.
+[2023-09-18T15:12:38.040+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:12:38.040+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-18T15:12:38.053+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:12:38.053+0000] {dag.py:3696} INFO - Setting next_dagrun for orange_day_elt to 2023-09-19T00:00:00+00:00, run_after=2023-09-20T00:00:00+00:00
+[2023-09-18T15:12:38.065+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/orange_day_elt.py took 0.245 seconds
+[2023-09-18T15:13:08.184+0000] {processor.py:157} INFO - Started process (PID=515) to work on /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:13:08.185+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/orange_day_elt.py for tasks to queue
+[2023-09-18T15:13:08.186+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:13:08.185+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:13:08.342+0000] {processor.py:839} INFO - DAG(s) dict_keys(['orange_day_elt']) retrieved from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:13:08.400+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:13:08.399+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:orange_day_elt' as access control is unset.
+[2023-09-18T15:13:08.400+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:13:08.400+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-18T15:13:08.412+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:13:08.412+0000] {dag.py:3696} INFO - Setting next_dagrun for orange_day_elt to 2023-09-19T00:00:00+00:00, run_after=2023-09-20T00:00:00+00:00
+[2023-09-18T15:13:08.422+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/orange_day_elt.py took 0.241 seconds
+[2023-09-18T15:13:38.536+0000] {processor.py:157} INFO - Started process (PID=532) to work on /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:13:38.536+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/orange_day_elt.py for tasks to queue
+[2023-09-18T15:13:38.537+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:13:38.537+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:13:38.688+0000] {processor.py:839} INFO - DAG(s) dict_keys(['orange_day_elt']) retrieved from /opt/airflow/dags/orange_day_elt.py
+[2023-09-18T15:13:38.743+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:13:38.743+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:orange_day_elt' as access control is unset.
+[2023-09-18T15:13:38.743+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:13:38.743+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-18T15:13:38.754+0000] {logging_mixin.py:151} INFO - [2023-09-18T15:13:38.754+0000] {dag.py:3696} INFO - Setting next_dagrun for orange_day_elt to 2023-09-19T00:00:00+00:00, run_after=2023-09-20T00:00:00+00:00
+[2023-09-18T15:13:38.764+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/orange_day_elt.py took 0.230 seconds

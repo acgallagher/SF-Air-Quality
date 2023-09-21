@@ -1,0 +1,13 @@
+[2023-09-21T19:35:51.171+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: realtime_elt.upload_sensor_data_to_s3 manual__2023-09-21T19:35:39.534894+00:00 [queued]>
+[2023-09-21T19:35:51.177+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: realtime_elt.upload_sensor_data_to_s3 manual__2023-09-21T19:35:39.534894+00:00 [queued]>
+[2023-09-21T19:35:51.177+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 1
+[2023-09-21T19:35:51.188+0000] {taskinstance.py:1380} INFO - Executing <Task(_PythonDecoratedOperator): upload_sensor_data_to_s3> on 2023-09-21 19:35:39.534894+00:00
+[2023-09-21T19:35:51.191+0000] {standard_task_runner.py:57} INFO - Started process 212 to run task
+[2023-09-21T19:35:51.193+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'realtime_elt', 'upload_sensor_data_to_s3', 'manual__2023-09-21T19:35:39.534894+00:00', '--job-id', '46', '--raw', '--subdir', 'DAGS_FOLDER/realtime_elt.py', '--cfg-path', '/tmp/tmpo8_0qjtd']
+[2023-09-21T19:35:51.194+0000] {standard_task_runner.py:85} INFO - Job 46: Subtask upload_sensor_data_to_s3
+[2023-09-21T19:35:51.221+0000] {task_command.py:415} INFO - Running <TaskInstance: realtime_elt.upload_sensor_data_to_s3 manual__2023-09-21T19:35:39.534894+00:00 [running]> on host f7858b6ac50d
+[2023-09-21T19:35:51.271+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='realtime_elt' AIRFLOW_CTX_TASK_ID='upload_sensor_data_to_s3' AIRFLOW_CTX_EXECUTION_DATE='2023-09-21T19:35:39.534894+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-09-21T19:35:39.534894+00:00'
+[2023-09-21T19:35:52.060+0000] {python.py:194} INFO - Done. Returned value was: True
+[2023-09-21T19:35:52.078+0000] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=realtime_elt, task_id=upload_sensor_data_to_s3, execution_date=20230921T193539, start_date=20230921T193551, end_date=20230921T193552
+[2023-09-21T19:35:52.127+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-09-21T19:35:52.140+0000] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

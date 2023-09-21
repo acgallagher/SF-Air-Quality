@@ -1,4 +1,5 @@
 from airflow.decorators import dag, task
+from airflow.providers.databricks.operators.databricks import DatabricksRunNowOperator
 import json
 import polars as pl
 import requests
@@ -17,7 +18,8 @@ def realtime_elt():
 
         api_key = "7CD6D264-0A25-11EE-BD21-42010A800008"
         headers = {"X-API-Key": api_key}
-        fields = "humidity, temperature, pressure, \
+        fields = "location_type, latitude, longitude, altitude, \
+            humidity, temperature, pressure, \
             voc, analog_input, \
             pm1.0_atm, pm1.0_cf_1, \
             pm2.5_alt, pm2.5_atm, pm2.5_cf_1, \
@@ -41,11 +43,11 @@ def realtime_elt():
         ) as f:
             json.dump(data, f, ensure_ascii=False, indent=4)
 
-        return "/opt/airflow/data/sensors_realtime.json"
-
     @task()
-    def save_sensor_data_as_parquet(json_path):
-        with open(json_path, "r", encoding="utf-8") as f:
+    def save_sensor_data_as_parquet():
+        with open(
+            "/opt/airflow/data/sensors_realtime.json", "r", encoding="utf-8"
+        ) as f:
             sensors = json.load(f)
 
         sensors_data = []
@@ -60,10 +62,8 @@ def realtime_elt():
             compression_level=22,
         )
 
-        return "/opt/airflow/data/sensors_realtime.parquet"
-
     @task()
-    def upload_file_to_s3(file_name, bucket, object_name=None):
+    def upload_sensor_data_to_s3(object_name=None):
         """Upload a file to an S3 bucket
 
         :param file_name: File to upload
@@ -71,6 +71,8 @@ def realtime_elt():
         :param object_name: S3 object name. If not specified then file_name is used
         :return: True if file was uploaded, else False
         """
+        file_name = "/opt/airflow/data/sensors_realtime.parquet"
+        bucket = "sf-air-quality-bucket"
 
         # If S3 object_name was not specified, use file_name
         if object_name is None:
@@ -94,12 +96,23 @@ def realtime_elt():
             response = s3_client.upload_file(file_name, bucket, object_name)
         except ClientError as e:
             logging.error(e)
-            return False
-        return True
 
-    json_path = extract_realtime_sf_sensors_data()
-    parquet_path = save_sensor_data_as_parquet(json_path)
-    upload_file_to_s3(parquet_path, "sf-air-quality-bucket")
+    db_run_now = DatabricksRunNowOperator(
+        databricks_conn_id="databricks_default",
+        task_id="run_now",
+        job_id=641620901514974,
+    )
+
+    extract_realtime_sf_sensors_data_task = extract_realtime_sf_sensors_data()
+    save_sensor_data_as_parquet_task = save_sensor_data_as_parquet()
+    upload_sensor_data_to_s3_task = upload_sensor_data_to_s3()
+
+    (
+        extract_realtime_sf_sensors_data_task
+        >> save_sensor_data_as_parquet_task
+        >> upload_sensor_data_to_s3_task
+        >> db_run_now
+    )
 
 
 realtime_elt()
