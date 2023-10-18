@@ -1,2 +1,3 @@
 venv/
 airflow/config/aws_credentials.csv
+data/

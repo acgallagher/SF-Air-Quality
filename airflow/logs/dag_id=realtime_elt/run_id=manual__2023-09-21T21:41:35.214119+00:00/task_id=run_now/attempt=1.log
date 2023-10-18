@@ -1,0 +1,23 @@
+[2023-09-21T21:41:48.699+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: realtime_elt.run_now manual__2023-09-21T21:41:35.214119+00:00 [queued]>
+[2023-09-21T21:41:48.706+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: realtime_elt.run_now manual__2023-09-21T21:41:35.214119+00:00 [queued]>
+[2023-09-21T21:41:48.706+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 1
+[2023-09-21T21:41:48.717+0000] {taskinstance.py:1380} INFO - Executing <Task(DatabricksRunNowOperator): run_now> on 2023-09-21 21:41:35.214119+00:00
+[2023-09-21T21:41:48.720+0000] {standard_task_runner.py:57} INFO - Started process 216 to run task
+[2023-09-21T21:41:48.722+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'realtime_elt', 'run_now', 'manual__2023-09-21T21:41:35.214119+00:00', '--job-id', '67', '--raw', '--subdir', 'DAGS_FOLDER/realtime_elt.py', '--cfg-path', '/tmp/tmpw9xhnguj']
+[2023-09-21T21:41:48.723+0000] {standard_task_runner.py:85} INFO - Job 67: Subtask run_now
+[2023-09-21T21:41:48.751+0000] {task_command.py:415} INFO - Running <TaskInstance: realtime_elt.run_now manual__2023-09-21T21:41:35.214119+00:00 [running]> on host adfc67faf194
+[2023-09-21T21:41:48.796+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='realtime_elt' AIRFLOW_CTX_TASK_ID='run_now' AIRFLOW_CTX_EXECUTION_DATE='2023-09-21T21:41:35.214119+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-09-21T21:41:35.214119+00:00'
+[2023-09-21T21:41:48.802+0000] {base.py:73} INFO - Using connection ID 'databricks_default' for task execution.
+[2023-09-21T21:41:48.803+0000] {databricks_base.py:492} INFO - Using token auth. For security reasons, please set token in Password field instead of extra
+[2023-09-21T21:41:49.203+0000] {databricks.py:54} INFO - Run submitted with run_id: 24201982290989
+[2023-09-21T21:41:49.203+0000] {databricks_base.py:492} INFO - Using token auth. For security reasons, please set token in Password field instead of extra
+[2023-09-21T21:41:49.352+0000] {databricks_base.py:492} INFO - Using token auth. For security reasons, please set token in Password field instead of extra
+[2023-09-21T21:41:49.565+0000] {databricks.py:95} INFO - run_now in run state: {'life_cycle_state': 'RUNNING', 'result_state': '', 'state_message': ''}
+[2023-09-21T21:41:49.566+0000] {databricks.py:96} INFO - View run status, Spark UI, and logs at https://dbc-a4700572-d298.cloud.databricks.com/?o=3344826556719501#job/641620901514974/run/24201982290989
+[2023-09-21T21:41:49.566+0000] {databricks.py:97} INFO - Sleeping for 30 seconds.
+[2023-09-21T21:42:19.574+0000] {databricks_base.py:492} INFO - Using token auth. For security reasons, please set token in Password field instead of extra
+[2023-09-21T21:42:19.723+0000] {databricks.py:65} INFO - run_now completed successfully.
+[2023-09-21T21:42:19.723+0000] {databricks.py:66} INFO - View run status, Spark UI, and logs at https://dbc-a4700572-d298.cloud.databricks.com/?o=3344826556719501#job/641620901514974/run/24201982290989
+[2023-09-21T21:42:19.730+0000] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=realtime_elt, task_id=run_now, execution_date=20230921T214135, start_date=20230921T214148, end_date=20230921T214219
+[2023-09-21T21:42:19.761+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-09-21T21:42:19.772+0000] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check
